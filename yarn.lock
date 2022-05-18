@@ -1482,7 +1482,7 @@
     "react-live" "2.2.3"
     "tslib" "^2.4.0"
 
-"@docusaurus/theme-search-algolia@2.0.0-beta.20":
+"@docusaurus/theme-search-algolia@^2.0.0-beta.20", "@docusaurus/theme-search-algolia@2.0.0-beta.20":
   "integrity" "sha512-9XAyiXXHgyhDmKXg9RUtnC4WBkYAZUqKT9Ntuk0OaOb4mBwiYUGL74tyP0LLL6T+oa9uEdXiUMlIL1onU8xhvA=="
   "resolved" "https://registry.npmjs.org/@docusaurus/theme-search-algolia/-/theme-search-algolia-2.0.0-beta.20.tgz"
   "version" "2.0.0-beta.20"

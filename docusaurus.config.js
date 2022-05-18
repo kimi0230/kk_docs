@@ -87,6 +87,29 @@ const config = {
           },
         ],
       },
+      algolia: {
+        // The application ID provided by Algolia
+        appId: "PMSUFA1PT1",
+
+        // Public API key: it is safe to commit it
+        apiKey: "5bec0005c760ad7052b58d8b87880a0a",
+
+        indexName: "YOUR_INDEX_NAME",
+
+        // Optional: see doc section below
+        contextualSearch: true,
+
+        // Optional: Specify domains where the navigation should occur through window.location instead on history.push. Useful when our Algolia config crawls multiple documentation sites and we want to navigate with window.location.href to them.
+        externalUrlRegex: "external\\.com|domain\\.com",
+
+        // Optional: Algolia search parameters
+        searchParameters: {},
+
+        // Optional: path for search page that enabled by default (`false` to disable it)
+        searchPagePath: "search",
+
+        //... other Algolia params
+      },
       footer: {
         style: "dark",
         links: [
@@ -137,7 +160,9 @@ const config = {
     // require.resolve("@docusaurus/theme-search-algolia"),
     require.resolve("@docusaurus/theme-live-codeblock"),
   ],
-  plugins: [require.resolve("docusaurus-lunr-search")],
+  // plugins: [
+  // require.resolve("docusaurus-lunr-search")
+  // ],
 };
 
 module.exports = config;
