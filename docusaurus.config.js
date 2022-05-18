@@ -6,8 +6,8 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "My Site",
-  tagline: "Dinosaurs are cool",
+  title: "Kimi Docs",
+  tagline: "Take notes of everything I learn",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/",
   onBrokenLinks: "throw",
@@ -16,15 +16,25 @@ const config = {
 
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
-  organizationName: "facebook", // Usually your GitHub org/user name.
-  projectName: "docusaurus", // Usually your repo name.
+  organizationName: "kimi230", // Usually your GitHub org/user name.
+  projectName: "kk_docs", // Usually your repo name.
 
   // Even if you don't use internalization, you can use this field to set useful
   // metadata like html lang. For example, if your site is Chinese, you may want
   // to replace "en" with "zh-Hans".
   i18n: {
     defaultLocale: "en",
-    locales: ["en"],
+    locales: ["en", "zh-TW"], // 語系配置
+    localeConfigs: {
+      en: {
+        label: "English",
+        direction: "ltr", // 閱讀方向為左到右
+      },
+      "zh-TW": {
+        label: "繁體中文（台灣）",
+        direction: "ltr",
+      },
+    },
   },
 
   presets: [
@@ -57,7 +67,7 @@ const config = {
     /** @type {import('@docusaurus/preset-classic').ThemeConfig} */
     ({
       navbar: {
-        title: "My Site",
+        title: "Kimi Docs",
         logo: {
           alt: "My Site Logo",
           src: "img/logo.svg",
@@ -67,11 +77,11 @@ const config = {
             type: "doc",
             docId: "intro",
             position: "left",
-            label: "Tutorial",
+            label: "Documents",
           },
           { to: "/blog", label: "Blog", position: "left" },
           {
-            href: "https://github.com/facebook/docusaurus",
+            href: "https://github.com/kimi0230/",
             label: "GitHub",
             position: "right",
           },
@@ -84,7 +94,7 @@ const config = {
             title: "Docs",
             items: [
               {
-                label: "Tutorial",
+                label: "Documents",
                 to: "/docs/intro",
               },
             ],
@@ -93,16 +103,12 @@ const config = {
             title: "Community",
             items: [
               {
-                label: "Stack Overflow",
-                href: "https://stackoverflow.com/questions/tagged/docusaurus",
+                label: "Github",
+                href: "https://github.com/kimi0230/",
               },
               {
-                label: "Discord",
-                href: "https://discordapp.com/invite/docusaurus",
-              },
-              {
-                label: "Twitter",
-                href: "https://twitter.com/docusaurus",
+                label: "Medium",
+                href: "https://medium.com/@kimi0230",
               },
             ],
           },
@@ -114,8 +120,8 @@ const config = {
                 to: "/blog",
               },
               {
-                label: "GitHub",
-                href: "https://github.com/facebook/docusaurus",
+                label: "Hugo Blog",
+                href: "https://kimi0230.github.io/",
               },
             ],
           },
@@ -127,7 +133,10 @@ const config = {
         darkTheme: darkCodeTheme,
       },
     }),
-
+  themes: [
+    // require.resolve("@docusaurus/theme-search-algolia"),
+    require.resolve("@docusaurus/theme-live-codeblock"),
+  ],
   plugins: [require.resolve("docusaurus-lunr-search")],
 };
 
