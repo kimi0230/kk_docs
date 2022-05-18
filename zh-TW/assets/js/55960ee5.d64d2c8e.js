@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog_notes=self.webpackChunkblog_notes||[]).push([[4121],{8070:function(e){e.exports=JSON.parse('[{"label":"kk","permalink":"/zh-TW/docs/tags/kk","count":1},{"label":"yy","permalink":"/zh-TW/docs/tags/yy","count":1}]')}}]);
