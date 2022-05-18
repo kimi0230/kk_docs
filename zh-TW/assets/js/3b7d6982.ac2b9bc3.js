@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblog_notes=self.webpackChunkblog_notes||[]).push([[7331],{9773:function(e){e.exports=JSON.parse('{"permalink":"/zh-TW/blog/tags/hello","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

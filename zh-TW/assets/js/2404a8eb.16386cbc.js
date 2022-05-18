@@ -1,1 +1,0 @@
-"use strict";(self.webpackChunkblog_notes=self.webpackChunkblog_notes||[]).push([[3016],{2492:function(o){o.exports=JSON.parse('{"permalink":"/zh-TW/blog/tags/facebook","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
