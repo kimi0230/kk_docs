@@ -9,7 +9,7 @@ const config = {
   title: "Kimi Docs",
   tagline: "Take notes of everything I learn",
   url: "https://your-docusaurus-test-site.com",
-  baseUrl: "/",
+  baseUrl: "/kk_docs",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "img/favicon.ico",
