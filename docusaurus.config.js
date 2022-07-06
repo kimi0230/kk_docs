@@ -160,9 +160,7 @@ const config = {
     // require.resolve("@docusaurus/theme-search-algolia"),
     require.resolve("@docusaurus/theme-live-codeblock"),
   ],
-  // plugins: [
-  // require.resolve("docusaurus-lunr-search")
-  // ],
+  // plugins: [require.resolve("docusaurus-lunr-search")],
 };
 
 module.exports = config;
