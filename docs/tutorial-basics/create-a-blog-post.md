@@ -1,6 +1,6 @@
 ---
 sidebar_position: 3
-tags: [kk , yy] 
+tags: [docusaurus, blog] 
 ---
 
 # Create a Blog Post

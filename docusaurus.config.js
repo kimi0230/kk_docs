@@ -7,7 +7,7 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 /** @type {import('@docusaurus/types').Config} */
 const config = {
   title: "Kimi Docs",
-  tagline: "Take notes of everything I learn",
+  tagline: "Take notes what I learn",
   url: "https://your-docusaurus-test-site.com",
   baseUrl: "/kk_docs/",
   onBrokenLinks: "throw",
@@ -80,6 +80,7 @@ const config = {
             label: "Documents",
           },
           { to: "/blog", label: "Blog", position: "left" },
+          { to: "/blog/tags", label: "Tags", position: "left" },
           {
             href: "https://github.com/kimi0230/",
             label: "GitHub",
@@ -133,6 +134,10 @@ const config = {
                 label: "Medium",
                 href: "https://medium.com/@kimi0230",
               },
+              {
+                label: "Linkedin",
+                href: "https://www.linkedin.com/in/kimi-tsai-354952111/",
+              },
             ],
           },
           {
@@ -149,7 +154,7 @@ const config = {
             ],
           },
         ],
-        copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+        copyright: `Copyright © ${new Date().getFullYear()} Kimi's Docs, Built with Docusaurus.`,
       },
       prism: {
         theme: lightCodeTheme,
