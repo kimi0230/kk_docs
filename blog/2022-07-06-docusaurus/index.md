@@ -28,3 +28,9 @@ https://docusaurus.io/docs/search
 ```sh
 yarn add @easyops-cn/docusaurus-search-local
 ```
+
+
+## PWA
+https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-pwa
+
+yarn add @docusaurus/plugin-pwa
