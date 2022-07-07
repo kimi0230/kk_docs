@@ -186,6 +186,9 @@ const config = {
           "appInstalled",
           "standalone",
           "queryString",
+          "always",
+          "mobile",
+          "saveData",
         ],
         pwaHead: [
           {
