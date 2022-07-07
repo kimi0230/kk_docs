@@ -50,3 +50,4 @@ If you are using GitHub pages for hosting, this command is a convenient way to b
 ## Reference
 * https://docusaurus.io
 * https://github.com/praveenn77/docusaurus-lunr-search
+* https://www.youtube.com/watch?v=2Arz1j5n2u0

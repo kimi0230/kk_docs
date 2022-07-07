@@ -3,6 +3,7 @@ id: docusaurus
 title: Docusaurus Static Website
 slug: docusaurus static website
 tags: [docusaurus]
+draft: false
 ---
 
 # Docusaurus Static Website
@@ -42,6 +43,43 @@ yarn add @easyops-cn/docusaurus-search-local
 ```sh
 yarn add @docusaurus/plugin-pwa
 ```
+
+static/manifest.json
+```json
+{
+    "name": "KK Docs Docusaurus v2",
+    "short_name": "KK Docs",
+    "theme_color": "#2196f3",
+    "background_color": "#424242",
+    "display": "standalone",
+    "scope": "./",
+    "start_url": ".",
+    "related_applications": [
+        {
+            "platform": "webapp",
+            "url": "https://kimi0230.github.io/kk_docs/manifest.json"
+        }
+    ],
+    "icons": [
+        {
+            "src": "img/favicon.ico",
+            "sizes": "32x27",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "img/logo.svg",
+            "sizes": "200x200",
+            "type": "image/svg+xml"
+        },
+        {
+            "src": "img/undraw_docusaurus_mountain.svg",
+            "sizes": "1088x688",
+            "type": "image/svg+xml"
+        }
+    ]
+}
+```
+
 
 docusaurus.config.js
 ```js
@@ -106,6 +144,9 @@ module.exports = {
   ],
 };
 ```
+
+## Markdown tags
+https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog#markdown-front-matter
 
 ##  Deploy to GitHub Pages
 ```yml
