@@ -19,12 +19,12 @@
             "type": "image/x-icon"
         },
         {
-            "src": "logo.svg",
+            "src": "img/logo.svg",
             "sizes": "200x200",
             "type": "image/svg+xml"
         },
         {
-            "src": "lundraw_docusaurus_mountain.svg",
+            "src": "img/lundraw_docusaurus_mountain.svg",
             "sizes": "1088x687",
             "type": "image/svg+xml"
         }
