@@ -2,6 +2,7 @@
 id: docusaurus
 title: docusaurus
 slug: docusaurus
+tags: [docusaurus]
 ---
 
 # Docusaurus
@@ -18,4 +19,12 @@ https://docusaurus.io/docs/search
 
 ### 1. Using Algolia DocSearch
 
-TODO...
+
+### @easyops-cn/docusaurus-search-local
+* https://github.com/easyops-cn/docusaurus-search-local
+* Offline/local search for Docusaurus v2 (language of zh supported)
+* Expected Node.js version ">=16.14"
+
+```sh
+yarn add @easyops-cn/docusaurus-search-local
+```

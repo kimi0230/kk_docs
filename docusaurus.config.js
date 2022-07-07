@@ -159,6 +159,18 @@ const config = {
   themes: [
     // require.resolve("@docusaurus/theme-search-algolia"),
     require.resolve("@docusaurus/theme-live-codeblock"),
+    [
+      require.resolve("@easyops-cn/docusaurus-search-local"),
+      {
+        // ... Your options.
+        // `hashed` is recommended as long-term-cache of index file is possible.
+        hashed: true,
+        // For Docs using Chinese, The `language` is recommended to set to:
+        // ```
+        language: ["en", "zh"],
+        // ```
+      },
+    ],
   ],
   // plugins: [require.resolve("docusaurus-lunr-search")],
 };
