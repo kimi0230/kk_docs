@@ -1,0 +1,32 @@
+{
+    "name": "Docusaurus v2",
+    "short_name": "Docusaurus",
+    "theme_color": "#2196f3",
+    "background_color": "#424242",
+    "display": "standalone",
+    "scope": "./",
+    "start_url": "./index.html",
+    "related_applications": [
+        {
+            "platform": "webapp",
+            "url": "https://kimi0230.github.io/kk_docs/manifest.json"
+        }
+    ],
+    "icons": [
+        {
+            "src": "img/favicon.ico",
+            "sizes": "64x64 32x32 24x24 16x16",
+            "type": "image/x-icon"
+        },
+        {
+            "src": "logo.svg",
+            "sizes": "200x200",
+            "type": "image/svg+xml"
+        },
+        {
+            "src": "lundraw_docusaurus_mountain.svg",
+            "sizes": "1088x687",
+            "type": "image/svg+xml"
+        }
+    ]
+}
