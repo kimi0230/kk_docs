@@ -1,21 +1,21 @@
 {
-    "name": "Docusaurus v2",
-    "short_name": "Docusaurus",
+    "name": "KK Docs Docusaurus v2",
+    "short_name": "KK Docs",
     "theme_color": "#2196f3",
     "background_color": "#424242",
     "display": "standalone",
-    // "scope": "./",
+    "scope": "./",
     "start_url": ".",
-    // "related_applications": [
-    //     {
-    //         "platform": "webapp",
-    //         "url": "https://kimi0230.github.io/kk_docs/manifest.json"
-    //     }
-    // ],
+    "related_applications": [
+        {
+            "platform": "webapp",
+            "url": "https://kimi0230.github.io/kk_docs/manifest.json"
+        }
+    ],
     "icons": [
         {
             "src": "img/favicon.ico",
-            "sizes": "64x64 32x32 24x24 16x16",
+            "sizes": "32x27",
             "type": "image/x-icon"
         },
         {
@@ -24,8 +24,8 @@
             "type": "image/svg+xml"
         },
         {
-            "src": "img/lundraw_docusaurus_mountain.svg",
-            "sizes": "1088x687",
+            "src": "img/undraw_docusaurus_mountain.svg",
+            "sizes": "1088x688",
             "type": "image/svg+xml"
         }
     ]
