@@ -1,9 +1,12 @@
 ---
-id: docusaurus
 title: Docusaurus Static Website
-slug: docusaurus static website
+slug: Docusaurus Static Website
 tags: [docusaurus]
 draft: false
+keywords: [docusaurus]
+description: ""
+# image:
+hide_table_of_contents: false
 ---
 
 # Docusaurus Static Website
@@ -147,6 +150,18 @@ module.exports = {
 
 ## Markdown tags
 https://docusaurus.io/docs/api/plugins/@docusaurus/plugin-content-blog#markdown-front-matter
+
+```yml
+id: docusaurus
+title: Docusaurus Static Website
+slug:
+tags: [docusaurus]
+draft: false
+keywords: [docusaurus]
+description:
+image:
+hide_table_of_contents: false
+```
 
 ##  Deploy to GitHub Pages
 ```yml
