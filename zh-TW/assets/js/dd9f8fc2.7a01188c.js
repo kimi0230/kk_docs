@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog_notes=self.webpackChunkblog_notes||[]).push([[4696],{4156:s=>{s.exports=JSON.parse('{"label":"hola","permalink":"/kk_docs/zh-TW/blog/tags/hola","allTagsPath":"/kk_docs/zh-TW/blog/tags","count":1}')}}]);

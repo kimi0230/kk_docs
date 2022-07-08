@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkblog_notes=self.webpackChunkblog_notes||[]).push([[6821],{5906:o=>{o.exports=JSON.parse('{"label":"facebook","permalink":"/kk_docs/blog/tags/facebook","allTagsPath":"/kk_docs/blog/tags","count":1}')}}]);
